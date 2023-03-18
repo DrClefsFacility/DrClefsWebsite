@@ -1,10 +1,9 @@
 body {
-  background-image: url('./173_afterbreach.png');
+  background-image: url('{{site.url}}/images/173_afterbreach.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-
 p {
   color: wheat
 
