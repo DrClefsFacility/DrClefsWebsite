@@ -38,18 +38,55 @@ p {
   margin-right: auto;
   width: 50%;
 }
-.square_btn{
+.delete-button,
+.delete-button:after {
+  width: 150px;
+  height: 76px;
+  line-height: 78px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.del-btn{
     display: inline-block;
     padding: 0.5em 1em;
     text-decoration: none;
-    background: #668ad8;/*Button Color*/
+    background: #9e1212;/*ButtonColor*/
     color: #FFF;
     border-bottom: solid 4px #627295;
     border-radius: 3px;
 }
-.square_btn:active {/*on Click*/
+.del-btn:active {/*OnClick*/
     -ms-transform: translateY(4px);
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*Move down*/
-    border-bottom: none;/*disappears*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*Reduce Shadow*/
+    border-bottom: none;
+}
+
+.req-btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #16a222;/*ButtonColor*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.req-btn:active {/*OnClick*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*Move down*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*Reduce Shadow*/
+    border-bottom: none;
 }
