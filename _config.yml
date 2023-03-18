@@ -1,8 +1,8 @@
 title: Dr. Clef's Website
-
 author: Llama
+simple_search: http://google.com/search
 url: https://drclefsfacility.github.io/DrClefsWebsite/
-
+root: /
 exclude:
   - README.md
   - CNAME
