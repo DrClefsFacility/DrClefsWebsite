@@ -1,1 +1,5 @@
 url: https://drclefsfacility.github.io/DrClefsWebsite/
+
+exclude:
+  - README.md
+  - CNAME
