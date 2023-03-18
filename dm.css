@@ -1,0 +1,41 @@
+body {
+  background-image: url('./173_afterbreach.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  color: wheat
+
+}
+#description {
+  margin-top: 10px;
+  text-align: center;
+}
+#desc {
+  text-align: center;
+  font-size: 10;
+}
+#message {
+  width: 500px;
+}
+#rules {
+  margin-top: -10px;
+  text-align: center;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.dm-text-center {
+  text-align: center;
+}
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
